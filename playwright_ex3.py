@@ -9,7 +9,7 @@ page.goto("https://www.ebay.com/sch/ebayadvsearch")
 page.locator("#_nkw").fill("tent")
 page.locator("#_ex_kw").fill("black")
 
-page.locator("[id='s0-1-20-6[3]-[2]-LH_BIN']").click()
+page.locator("[value='LH_BIN']").click()
 page.locator(".adv-form__actions .btn--primary").click()
 page.go_back()
 
